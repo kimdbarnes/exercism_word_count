@@ -55,7 +55,7 @@ public class WordCountTest {
 
     @Test
     public void ignorePunctuation() {
-        Map<String, Integer> actualWordCount = new HashMap<String, Integer>();
+       Map<String, Integer> actualWordCount = new HashMap<String, Integer>();
         final Map<String, Integer> expectedWordCount = new HashMap<String, Integer>();
         expectedWordCount.put("car", 1);
         expectedWordCount.put("carpet", 1);
